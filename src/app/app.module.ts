@@ -23,9 +23,6 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
   providers: [
     CoursesService
   ],
-  bootstrap: [
-    AppComponent,
-    ContactFormComponent
-  ]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
